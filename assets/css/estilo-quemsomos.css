@@ -5,7 +5,7 @@
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 50px;
-    margin-top: 15vh;
+    margin-top: 5vh;
 }
 
 .member-profile {
@@ -39,19 +39,34 @@
     margin: 5px 0;
 }
 
-.social-links a {
-    display: inline-block;
-    margin: 15px 10px 0;
-    padding: 10px 20px;
-    background-color: #4dc9e6;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+.icon-redesocial {
+    display: flex;
+    justify-content: center; 
+    gap: 30px; 
+    margin-top: 20px;
 }
 
-.social-links a:hover {
-    background-color: #ff914d;
-    color: #333;
+.social-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+
+.social-item img {
+    width: 50px; 
+    height: 50px;
+    margin-bottom: 5px; 
+}
+
+.social-item a {
+    text-decoration: none;
+    color: #555; 
+    font-weight: 500;
+    font-size: 0.9em;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-item a:hover {
+    color: #ff914d;
 }
