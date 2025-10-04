@@ -1,0 +1,74 @@
+/* Estilos globais do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    padding-bottom: 50px; 
+
+}
+
+
+.background-gradient {
+    background: linear-gradient(to right, #4dc9e6, #f7d23d);
+    min-height: 100vh;
+}
+
+
+.header {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 75px;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation ul li {
+    margin-left: 20px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+    color: #f7d23d;
+}
+
+
+.footer {   
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.8em;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
