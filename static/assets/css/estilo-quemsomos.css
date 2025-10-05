@@ -20,6 +20,15 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.section-subtitle {
+    font-size: 1.5em;
+    color: #3f6874;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 .project-description:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
