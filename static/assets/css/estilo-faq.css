@@ -20,6 +20,10 @@
     letter-spacing: 1px;
 }
 
+.faq-container h1 .faq-highlight {
+    color: #ff914d;
+}
+
 .faq-item {
     background-color: #ffffff;
     margin-bottom: 20px;
@@ -49,3 +53,4 @@
     padding: 0 25px 20px;
     margin: 0;
 }
+
