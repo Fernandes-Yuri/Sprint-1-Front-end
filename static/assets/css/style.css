@@ -16,14 +16,21 @@ body {
 
 
 .header {
-    background-color: rgb(255, 255, 255);
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    z-index: 1000;
+    background: linear-gradient(to right, 
+        #fff 40%, 
+        #effcff 50%,
+        #fff 60%);
+    background-size: 200% 100%;
+    animation: moveColor 2.4s linear infinite;
+}
+
+@keyframes moveColor {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
 }
 
 .header-container {
@@ -58,7 +65,7 @@ body {
 }
 
 .navigation ul li a:hover {
-    color: #f7d23d;
+    color: #ff914d;
 }
 
 
