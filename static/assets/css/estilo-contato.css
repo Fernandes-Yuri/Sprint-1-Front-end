@@ -1,10 +1,10 @@
 .main-content {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Alinha os itens no topo */
+    align-items: flex-start; 
     padding-top: 120px;
     padding-bottom: 80px;
-    gap: 40px; /* Espaço entre as seções */
+    gap: 40px; 
 }
 
 .contact-container {
@@ -27,17 +27,17 @@
 
 .contact-section h2, .social-section h2 {
     font-size: 2.2em;
-    color: #3f6874;
+    color: #ff914d;
     margin-bottom: 10px;
+    margin-top: 0;
 }
 
 .contact-section p, .social-section p {
     font-size: 1.1em;
-    color: #555;
+     color: #3f6874;
     margin-bottom: 25px;
 }
 
-/* Estilos do Formulário */
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -79,6 +79,16 @@
 
 .submit-button:hover {
     background-color: #e87a3c;
+}
+
+.logo-tdb {
+    width: 200px; 
+    margin-bottom: 0; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo-tdb:hover {
+    transform: scale(1.1);
 }
 
 .social-links {
