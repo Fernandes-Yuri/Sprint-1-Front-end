@@ -1,16 +1,17 @@
 .main-content {
     flex-grow: 1;
     margin-top: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20px;
+    width: 100%;
     max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    box-sizing: border-box;
 }
 
 .hero-section {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,61 +20,57 @@
 }
 
 .hero-text {
-    flex: none;
+    width: 100%;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
 }
 
 .hero-text h1 {
-    font-size: 4em;
-    color: #ff914d; 
-    margin-bottom: 0;
-    margin-top: 0px;
-    line-height: 0.8;
+    font-size: 5em;
+    color: #ff914d;
+    margin: 0;
+    line-height: 1;
     text-shadow: 2px 2px 4px rgba(87, 185, 209, 0.5);
+    text-align: center;
 }
 
 .hero-text h2 {
-    font-size: 4em;
-    color: #3f6874; 
-    margin-top: 0;
-    margin-left: 300px;
+    font-size: 5em;
+    color: #3f6874;
+    margin-top: -20px;
     text-shadow: 2px 2px 4px rgba(87, 185, 209, 0.5);
+    text-align: right;
+    padding-right: 10%;
 }
 
 .hero-text p {
     font-size: 1em;
     color: #3F6874;
-    margin-bottom: 30px;
-    margin-left: 50px;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto 40px auto;
 }
-
-.hero-info {
-    width: 20%; 
-}
-
 
 .btn-primary {
     display: inline-block;
-    padding: 12px 25px;
+    padding: 15px 30px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #4dc9e6; 
-    color: #fff; 
+    background-color: #4dc9e6;
+    color: #fff;
     border: none;
+    align-self: center;
 }
 
 .btn-primary:hover {
-    background-color: #ff914d8e;
-    color: #333; 
-    transform: translateY(-2px);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    background-color: #ff914d;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
-
