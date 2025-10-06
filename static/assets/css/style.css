@@ -3,9 +3,12 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-
     padding-top: 85px; 
-    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+    align-items: center; 
 }
 
 .background-gradient {
