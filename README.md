@@ -24,7 +24,6 @@ O **Turma do Bem Connect** é uma plataforma de gestão Business and Non-governm
 
 ### Contato
 
-- **GitHub:** [Fernandes-Yuri](https://github.com/Fernandes-Yuri)
 - **LinkedIn:** [Yuri Fernandes](https://www.linkedin.com/in/yuri-fernandes-901247385/)
 
 ## Tecnologias Utilizadas
