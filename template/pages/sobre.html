@@ -28,23 +28,106 @@
     </header>
 
     <main class="main-content-sobre">
-        <section class="about-project">
-            <div class="text-content">
-                <h2>Sobre o Projeto: Turma do Bem Connect</h2>
-                <p>A Ideia: O Turma do Bem Connect é uma plataforma de gestão <span class="b2ngo">Business to Non-Governmental Organization (B2NGO)</span> pensada para otimizar e centralizar a comunicação da ONG Turma do Bem com seus públicos: beneficiários, dentistas voluntários e gestores.
-                </p>
-                <p>O que você verá a baixo lado é uma simulação interativa de um "MVP (Minimum Viable Product)". A Sprint 1 focou na criação da estrutura visual e na definição das funcionalidades essenciais pensadas no <a href="https://trello.com/invite/b/68dc23a302e319731753d24f/ATTI83d40fe6b39ef99a1ef243ed9dcaa7a2A09711BA/turma-do-bem-tdb-connect" target="_blank">backlog</a>. Nas próximas sprints, evoluiremos este protótipo para uma aplicação web completa e responsiva, com banco de dados e funcionalidades dinâmicas.
-                </p>
+        <div class="about-container">
+            <section class="about-section">
+                <h2>Uma Jornada Digital para Ampliar Sorrisos: O Roadmap do Turma do Bem Connect</h2>
+                <p class="intro-p">O Turma do Bem Connect foi idealizado para fortalecer a ponte entre a ONG Turma do Bem e seus beneficiários e voluntários. O projeto é dividido em duas frentes principais: uma trilha de cadastro online intuitiva para pacientes e uma plataforma de gestão robusta para a equipe e dentistas da TDB.</p>
+                <p class="intro-p">A seguir, apresentamos o fluxo de funcionalidades que compõem a nossa solução, desde o primeiro contato do paciente até a gestão completa do seu atendimento.</p>
                 
-            </div>
-            <div class="tablet-simulator">
-                <div class="tablet-frame">
-                    <div class="tablet-screen">
-                        <iframe src="../../tbp-simulation-mpv/index.html" frameborder="0"></iframe>
+                <hr>
+
+                <h3 class="section-title">Etapa 1: A Trilha do Paciente - Da Descoberta ao Acolhimento</h3>
+                <p class="intro-p intro-p-spaced">O primeiro passo da nossa solução é focado em acolher o paciente que chega até a Turma do Bem, geralmente por meio de canais digitais. Criamos uma jornada online simples e humanizada para que o futuro beneficiário possa registrar sua necessidade de forma clara e segura.</p>
+
+                <div class="roadmap-flow">
+                    <div class="flow-step">
+                        <h4 class="step-title">Coleta de Dados Pessoais</h4>
+                        <p class="step-description">Onde tudo começa. O beneficiário preenche suas informações básicas de identificação.</p>
+                    </div>
+                    <div class="flow-step">
+                        <h4 class="step-title">Informações de Contato</h4>
+                        <p class="step-description">Essencial para o acompanhamento. O paciente fornece seu telefone e e-mail para que a TDB possa manter contato durante o processo.</p>
+                    </div>
+                    <div class="flow-step">
+                        <h4 class="step-title">Relato da Condição Bucal</h4>
+                        <p class="step-description">Um passo crucial. O beneficiário descreve seu problema odontológico, fornecendo dados importantes para a triagem inicial.</p>
+                    </div>
+                    <div class="flow-step">
+                        <h4 class="step-title">Encaminhamento Inteligente para o Apolônias do Bem</h4>
+                        <p class="step-description">O sistema identifica, durante o preenchimento, se o caso se enquadra nos critérios do programa Apolônias do Bem, direcionando-o corretamente.</p>
+                    </div>
+                    <div class="flow-step">
+                        <h4 class="step-title">Validação do Cadastro</h4>
+                        <p class="step-description">Ao finalizar, um e-mail de confirmação é enviado. Com a confirmação, a solicitação entra oficialmente na fila de triagem da TDB.</p>
                     </div>
                 </div>
-            </div>
-        </section>
+
+                <hr>
+
+                <h3 class="section-title">Etapa 2: Plataforma de Gestão - Onde a Transformação Acontece</h3>
+                <p class="intro-p intro-p-spaced">A segunda etapa é o coração do Turma do Bem Connect: uma aplicação web para a gestão completa dos atendimentos. Nela, gestores e dentistas voluntários têm as ferramentas para organizar, acompanhar e agilizar cada caso.</p>
+
+                <h4 class="subsection-title">Visão do Gestor:</h4>
+                <div class="roadmap-flow">
+                    <div class="flow-step">
+                        <h4 class="step-title">Acesso Seguro</h4>
+                        <p class="step-description">Um portal de login que direciona gestores e voluntários para seus painéis personalizados.</p>
+                    </div>
+                    <div class="flow-step">
+                        <h4 class="step-title">Dashboard de Atendimentos</h4>
+                        <p class="step-description">Uma visão geral da operação, com os principais indicadores e a lista de pacientes aguardando atendimento.</p>
+                    </div>
+                    <div class="flow-step">
+                        <h4 class="step-title">Cadastro Manual de Paciente</h4>
+                        <p class="step-description">Permite que o gestor adicione novos pacientes diretamente na plataforma, ideal para casos identificados em mutirões ou por outros meios.</p>
+                    </div>
+                    <div class="flow-step">
+                        <h4 class="step-title">Busca e Filtros Avançados</h4>
+                        <p class="step-description">Ferramentas para localizar pacientes por status, nome ou programa, otimizando o tempo de busca.</p>
+                    </div>
+                    <div class="flow-step">
+                        <h4 class="step-title">Aprovação de Voluntários</h4>
+                        <p class="step-description">Um módulo para analisar e aprovar o cadastro de novos dentistas que desejam se juntar à causa.</p>
+                    </div>
+                    <div class="flow-step">
+                        <h4 class="step-title">Gestão de Status</h4>
+                        <p class="step-description">O gestor atualiza o andamento de cada caso (ex: "Pendente", "Em Análise"), mantendo o fluxo de trabalho organizado.</p>
+                    </div>
+                    <div class="flow-step">
+                        <h4 class="step-title">Anotações Internas</h4>
+                        <p class="step-description">Permite o registro de informações importantes e privadas no perfil de cada paciente.</p>
+                    </div>
+                    <div class="flow-step">
+                        <h4 class="step-title">Encaminhamento para Dentista</h4>
+                        <p class="step-description">A funcionalidade central que conecta o paciente ao voluntário ideal para o seu tratamento.</p>
+                    </div>
+                </div>
+
+                <h4 class="subsection-title-spaced">Visão do Dentista Voluntário:</h4>
+                <div class="roadmap-flow">
+                    <div class="flow-step">
+                        <h4 class="step-title">Dashboard do Dentista</h4>
+                        <p class="step-description">Uma "caixa de entrada" com os pacientes que foram encaminhados para o seu atendimento.</p>
+                    </div>
+                    <div class="flow-step">
+                        <h4 class="step-title">Visualização do Perfil do Paciente</h4>
+                        <p class="step-description">Acesso a todas as informações coletadas na triagem para um entendimento completo do caso.</p>
+                    </div>
+                    <div class="flow-step">
+                        <h4 class="step-title">Anamnese Digital</h4>
+                        <p class="step-description">Um formulário clínico para registrar o diagnóstico e o plano de tratamento de forma digital e segura.</p>
+                    </div>
+                    <div class="flow-step">
+                        <h4 class="step-title">Menu de Ações Simplificado</h4>
+                        <p class="step-description">Um painel com as ações que o dentista pode realizar, como "Realizar Anamnese" ou "Redirecionar Paciente".</p>
+                    </div>
+                    <div class="flow-step">
+                        <h4 class="step-title">Redirecionamento de Paciente</h4>
+                        <p class="step-description">Caso necessário, o dentista pode devolver o caso ao gestor com uma justificativa, fechando o ciclo de comunicação de forma transparente.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     
     <footer class="footer">
